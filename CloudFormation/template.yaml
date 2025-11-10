@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Serverless File Uploader Stack (LocalStack Demo)"
+
+Resources:
+  DemoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: demo-stack-bucket
+
+  DemoFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: demo-lambda
+      Handler: lambda_function.handler
+      Role: arn:aws:iam::000000000000:role/lambda-role
+      Runtime: python3.9
+      Code:
+        ZipFile: |
+          import json
+          import boto3
+
+          def handler(event, context):
+              s3 = boto3.client('s3')
+              bucket = "demo-stack-bucket"
+              key = "cloudformation-upload.txt"
+              s3.put_object(Bucket=bucket, Key=key, Body="Uploaded via CloudFormation Lambda!")
+              return {'statusCode': 200, 'body': json.dumps('Upload successful')}
