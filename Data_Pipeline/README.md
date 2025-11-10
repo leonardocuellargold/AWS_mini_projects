@@ -25,14 +25,6 @@ The instructions below assume LocalStack is running on localhost:4566 and the AW
 - AWS CLI configured (we'll pass the LocalStack endpoint explicitly)
 - Python 3.9 and boto3 (for the Lambda code)
 - zip utility (to package the Lambda function)
-
-If you don't have LocalStack running, a quick way to run it with Docker is:
-
-```bash
-# (optional) start LocalStack using the Docker image
-docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
-```
-
 ---
 
 ## Steps
