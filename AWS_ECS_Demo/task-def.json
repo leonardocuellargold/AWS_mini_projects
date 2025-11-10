@@ -1,0 +1,16 @@
+{
+  "family": "ecs-demo-task",
+  "networkMode": "bridge",
+  "containerDefinitions": [
+    {
+      "name": "ecs-demo-container",
+      "image": "localhost:4566/ecs-demo-repo:latest",
+      "memory": 128,
+      "cpu": 64,
+      "essential": true,
+      "portMappings": [
+        { "containerPort": 8080, "hostPort": 8080 }
+      ]
+    }
+  ]
+}
