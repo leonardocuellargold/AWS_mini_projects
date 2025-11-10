@@ -16,7 +16,6 @@ This is a small, self-contained demo that shows an event-driven streaming flow u
 
 The instructions below assume LocalStack is running on localhost:4566 and the AWS CLI is available on your PATH.
 
-Note: this README is sanitized for local user privacy. Replace `<your-computer-username>` with your actual macOS username where filesystem paths are required.
 
 ---
 
