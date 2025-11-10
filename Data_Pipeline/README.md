@@ -2,8 +2,6 @@
 
 Goal: Build a minimal local pipeline where a Kinesis stream receives data → a Lambda reads and processes it → S3 stores the result.
 
-Runtime: ~25 minutes
-
 Environment: LocalStack (Docker) + AWS CLI + Python 3.9 + boto3
 
 ---
