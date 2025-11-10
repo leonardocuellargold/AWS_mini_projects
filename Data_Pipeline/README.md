@@ -136,12 +136,6 @@ You should see a file like `record-<eventID>.txt` containing the decoded data.
 
 ---
 
-## Interview Talking Point
-
-“I built a local data-pipeline demo using Kinesis → Lambda → S3 in LocalStack. It showed me how event-driven systems scale better than synchronous APIs, and how cloud services interconnect in real-time architectures that support modernization efforts.”
-
----
-
 ## Next Steps
 
 - Once you confirm you see the object in S3, continue to Mini-Project 5 — Containerized Microservice (ECR + ECS).
