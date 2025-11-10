@@ -25,8 +25,6 @@ The template is in `template.yaml` and contains:
 - An S3 bucket resource: `DemoBucket` with name `demo-stack-bucket`
 - A Lambda function resource: `DemoFunction` named `demo-lambda` with inline Python code that uploads `cloudformation-upload.txt` to the bucket.
 
-> Note: the template uses an IAM role ARN `arn:aws:iam::000000000000:role/lambda-role`. LocalStack does not enforce IAM by default for local testing; for real AWS deployments you must supply a valid role with the correct trust/permission policy.
-
 ## Deploy to LocalStack
 
 1. Make sure LocalStack is running (for example via Docker Compose or `localstack start`).
