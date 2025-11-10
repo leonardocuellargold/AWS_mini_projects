@@ -1,6 +1,6 @@
 # AWS Modernization Mini Projects (LocalStack Deployments)
 
-This repository contains five short AWS modernization mini-projects, each built and deployed locally using **LocalStack**.  
+This repository contains five short AWS modernization mini-projects, each built and deployed locally using [LocalStack](https://www.localstack.cloud/).  
 These exercises demonstrate key AWS concepts in a hybrid-cloud modernization context,from serverless automation to container orchestration.
 
 All screenshots below are from my LocalStack deployments, showing real outputs, CLI interactions, and Docker activity.
