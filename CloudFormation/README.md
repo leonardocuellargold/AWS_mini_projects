@@ -17,7 +17,7 @@ Deploy a simple serverless architecture (S3 bucket + Lambda function) using Clou
 - LocalStack installed and running locally (default edge port 4566)
 - AWS CLI configured (any profile) — we'll target LocalStack with `--endpoint-url`
 
-## Template (already added)
+## Template
 
 The template is in `template.yaml` and contains:
 
