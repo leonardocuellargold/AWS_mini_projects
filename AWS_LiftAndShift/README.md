@@ -107,16 +107,7 @@ aws --endpoint-url=http://localhost:4566 rds create-db-instance \
 
 ---
 
-## Local terminal outputs (sanitized)
-
-Note: personal machine names and user paths have been removed or replaced with generic placeholders to avoid exposing local identifiers.
-
-- Directory listing for the `AWS_LiftAndShift` folder:
-
-```text
-ec2-trust-policy.json
-README.md
-```
+## Local terminal outputs
 
 - `ec2-trust-policy.json` (contents):
 
@@ -132,11 +123,3 @@ README.md
   ]
 }
 ```
-
-- Git information (captured locally):
-
-```text
-Branch: main
-```
-
-These outputs were captured from the local repository and sanitized to remove any personal or machine-specific identifiers before being added here.
