@@ -1,7 +1,5 @@
 # AWS CloudFormation Demo — Serverless File Uploader (LocalStack)
 
-Excellent, Leonardo — you're following the right approach for an interview-friendly Infrastructure-as-Code demo.
-
 This small, local project shows how to codify an S3 + Lambda serverless workflow using a single `template.yaml` CloudFormation template and deploy it to LocalStack for repeatable, auditable provisioning.
 
 ## Goal
