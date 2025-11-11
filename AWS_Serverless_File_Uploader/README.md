@@ -1,8 +1,6 @@
 # AWS Serverless File Uploader (LocalStack Demo)
 
 This mini-project simulates a serverless file-upload workflow using AWS Lambda and S3, all running locally through LocalStack.  
-It’s a lightweight hands-on demo I built to prep for my IBM Consulting – Hybrid Cloud (AWS Modernization) interview and to show real-world understanding of event-driven cloud design.
-
 ---
 
 ## Tech Stack
